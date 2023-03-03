@@ -6,11 +6,13 @@
     font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
-header {
+header, footer {
     background-color: #1F2937;
     color: var(--light-text-color); 
     display: flex;
     flex-direction: column;
+    padding-left: 64px;
+    padding-right: 64px;
 }
 
 ul {
@@ -43,4 +45,28 @@ header > .bottom > * {
 
 .logo {
     font-weight: bold;
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+.hero-main {
+    font-size: 48px;
+    font-weight: bolder;
+    color: #F9FAF8;
+}
+.hero-secondary,
+.header-links {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+button {
+    background-color: #3882f6;
+}
+.image-placeholder {
+    background-color: #ccc;
+}
+header .right {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
