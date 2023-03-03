@@ -14,6 +14,10 @@ ul {
     margin: 0;
     list-style: none;
 }
+header > .top > ul {
+    display: flex;
+    gap: 16px;
+}
 a {
     text-decoration: none;
     color: var(--light-text-color);
