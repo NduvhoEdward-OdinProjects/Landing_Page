@@ -21,4 +21,5 @@ a {
 
 header > .top {
     display: flex;
+    justify-content: space-between;
 }
