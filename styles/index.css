@@ -6,6 +6,8 @@
     font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
+/* Mainly HEADER section styling rules */
+
 header, footer {
     background-color: #1F2937;
     color: var(--light-text-color); 
@@ -84,4 +86,11 @@ header > .bottom > .left {
     flex-direction: column;
     align-items: flex-start;
     gap: 16px;
+}
+
+/* Mainly MAIN section styling rules */ 
+
+main {
+    display: flex;
+    flex-direction: column;
 }
