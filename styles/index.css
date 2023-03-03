@@ -27,3 +27,10 @@ header > .top {
     display: flex;
     justify-content: space-between;
 }
+
+header > .bottom {
+    display: flex;
+}
+header > .bottom > * {
+    flex: 1;
+}
