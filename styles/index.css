@@ -2,6 +2,10 @@
     --light-text-color: #F9FAF8;
 }
 
+* {
+    font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
 header {
     background-color: #1F2937;
     color: var(--light-text-color); 
@@ -26,11 +30,17 @@ a {
 header > .top {
     display: flex;
     justify-content: space-between;
+    padding: 16px;
 }
 
 header > .bottom {
     display: flex;
+    padding: 16px;
 }
 header > .bottom > * {
     flex: 1;
+}
+
+.logo {
+    font-weight: bold;
 }
