@@ -11,8 +11,12 @@ header, footer {
     color: var(--light-text-color); 
     display: flex;
     flex-direction: column;
+
+}
+header {
     padding-left: 64px;
     padding-right: 64px;
+    padding-bottom: 72px;
 }
 
 ul {
@@ -60,7 +64,12 @@ header > .bottom > * {
     color: #e5e7eb;
 }
 button {
-    background-color: #3882f6;
+    background-color: #3882f6; 
+    padding: 4px 16px;
+    font-weight: bold;
+    color: #e5e7eb;
+    border-radius: 6px;
+    border-style: none;
 }
 .image-placeholder {
     background-color: #ccc;
@@ -69,4 +78,10 @@ header .right {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+header > .bottom > .left {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 16px;
 }
