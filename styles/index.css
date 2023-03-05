@@ -4,6 +4,8 @@
 
 * {
     font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    padding: 0;
+    margin: 0;
 }
 
 /* Mainly HEADER section styling rules */
@@ -107,8 +109,6 @@ main {
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding-left: 64px;
-    padding-right: 64px;
 }
 
 main>.info {
@@ -148,4 +148,22 @@ main>.info>.details {
 .details p {
     text-align: center;
     font-size: 18px;
+}
+
+
+.quote {
+    background-color: #e5e7eb;
+    padding: 64px;
+}
+.quote-body {
+    font-size: 36px;
+    font-weight: lighter;
+    font-style: italic;
+    color: #1f2937;
+}
+.quote-author {
+    display: flex;
+    justify-content: flex-end;
+    font-weight: bold;    
+    margin-top: 24px;
 }
