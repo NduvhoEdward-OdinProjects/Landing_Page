@@ -8,13 +8,15 @@
 
 /* Mainly HEADER section styling rules */
 
-header, footer {
+header,
+footer {
     background-color: #1F2937;
-    color: var(--light-text-color); 
+    color: var(--light-text-color);
     display: flex;
     flex-direction: column;
 
 }
+
 header {
     padding-left: 64px;
     padding-right: 64px;
@@ -26,26 +28,29 @@ ul {
     margin: 0;
     list-style: none;
 }
-header > .top > ul {
+
+header>.top>ul {
     display: flex;
     gap: 16px;
 }
+
 a {
     text-decoration: none;
     color: var(--light-text-color);
 }
 
-header > .top {
+header>.top {
     display: flex;
     justify-content: space-between;
     padding: 16px;
 }
 
-header > .bottom {
+header>.bottom {
     display: flex;
     padding: 16px;
 }
-header > .bottom > * {
+
+header>.bottom>* {
     flex: 1;
 }
 
@@ -60,37 +65,87 @@ header > .bottom > * {
     font-weight: bolder;
     color: #F9FAF8;
 }
+
 .hero-secondary,
 .header-links {
     font-size: 18px;
     color: #e5e7eb;
 }
+
 button {
-    background-color: #3882f6; 
+    background-color: #3882f6;
     padding: 4px 16px;
     font-weight: bold;
     color: #e5e7eb;
     border-radius: 6px;
     border-style: none;
 }
-.image-placeholder {
-    background-color: #ccc;
+
+.right img {
+    height: 300px;
+    width: 100%;
+    border-radius: 8px;
+    border: 2px solid #ccc;
 }
+
 header .right {
     display: flex;
     justify-content: center;
     align-items: center;
 }
-header > .bottom > .left {
+
+header>.bottom>.left {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
     gap: 16px;
 }
 
-/* Mainly MAIN section styling rules */ 
+/* Mainly MAIN section styling rules */
 
 main {
     display: flex;
     flex-direction: column;
+    align-items: center;
+    padding-left: 64px;
+    padding-right: 64px;
+}
+
+main>.info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 56px;
+    padding-left: 64px;
+    padding-right: 64px;
+
+}
+.info .title {
+    font-weight: bolder;
+    font-size: 36px;
+    color: #1F2937; 
+    margin: 32px;
+}
+
+main>.info>.details {
+    display: flex;
+    gap: 16px;
+    width: 100%;
+    flex-wrap: wrap; 
+}
+.item-details {
+    flex: 1; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.details img {
+    height: 150px;
+    width: 150px;
+    border-radius: 12px;
+    border: 2px solid #3882f6;
+}
+.details p {
+    text-align: center;
+    font-size: 18px;
 }
