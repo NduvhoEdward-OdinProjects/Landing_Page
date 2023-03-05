@@ -189,3 +189,11 @@ main>.info>.details {
     font-weight: bolder;
     border: 2px solid #e5e7eb;
 }
+
+footer {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 96px;
+}
