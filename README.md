@@ -1,6 +1,6 @@
 # HTML and CSS Landing Page
 
-Welcome to the HTML and CSS Landing Page! This landing page showcases the power and beauty of HTML and CSS in web development. You can view the landing page on the following link: [HTML and CSS Landing Page](https://nduvhoedward-odinprojects.github.io/HTML_CSS_Landing_Page/).
+Welcome to the HTML and CSS Landing Page! This landing page showcases the power and beauty of HTML and CSS in web development. You can view the landing page on the following link: [HTML and CSS Landing Page](https://nduvhoedward-odinprojects.github.io/Landing_Page/).
 
 ## Overview
 
@@ -24,7 +24,7 @@ The landing page was developed by following these steps:
 1. HTML structure and content were created to define the layout and elements of the landing page.
 2. CSS styles were applied to enhance the appearance and design of the page.
 
-The landing page is deployed and hosted using GitHub Pages, allowing easy access and sharing through the provided link: [HTML and CSS Landing Page](https://nduvhoedward-odinprojects.github.io/HTML_CSS_Landing_Page/).
+The landing page is deployed and hosted using GitHub Pages, allowing easy access and sharing through the provided link: [HTML and CSS Landing Page](https://nduvhoedward-odinprojects.github.io/Landing_Page/).
 
 ## Future Enhancements
 
